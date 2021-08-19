@@ -15,11 +15,11 @@ public class Driver {
 
 	while (!arrayStack.isEmpty()) {
 			
-			System.out.println("INTEGER REMOVED: " + arrayStack.pop());
+			System.out.println("INTEGER REMOVED:\n " + arrayStack.pop());
 			
 		}
 
-			System.out.println("STACK IS EMPTY");
+			System.out.println("STACK IS EMPTY\n");
 		
 				linkedStack.push(1);
 				linkedStack.push(7);
@@ -30,11 +30,11 @@ public class Driver {
 
 	while (!linkedStack.isEmpty()) {
 			
-			System.out.println("INTEGER REMOVED: " + linkedStack.pop());
+			System.out.println("INTEGER REMOVED:\n " + linkedStack.pop());
 			
 		}
 
-			System.out.println("STACK IS EMPTY");
+			System.out.println("STACK IS EMPTY\n");
 
 		LinkedStack linkedStack1 = new LinkedStack();
 
@@ -48,7 +48,7 @@ public class Driver {
 			linkedStack1.removeBottomHalf();
 
 	
-			System.out.println("BOTTOM HALF OF STACK: " + linkedStack1);
+			System.out.println("BOTTOM HALF OF STACK:\n " + linkedStack1);
 		
 	}
 	
